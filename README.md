@@ -13,7 +13,7 @@ Install following packages:
         <li>4 - Proliferative DR</li>
     </ul>
 </p>
-<p>I have used fastai transfer learning to make use of resent50 model trained over imagenet. I have also made use of 1Cycle policy to train the data on APTOS dataset</p>  
+<p>I have used resent50 model trained over imagenet dataset with fastai transfer learning. I have also used 1Cycle learning to train the data on APTOS dataset</p>  
 
 <p>Thanking everyone whose kernels and blogs were used as reference while building this model</p>
 
