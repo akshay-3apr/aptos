@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block content %}
+<div class="row justify-content-between">
+    <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">APTOS - Blindness detection</h3>
+            </div>
+            <div class="panel-body">
+                <form role="form" enctype="multipart/form-data" method="POST">
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="custom-file" id="customFile" lang="es">
+                                        {{ form.image.label()}} <br>{{ form.image(placeholder ="Upload Image Here",type='file') }}
+                                        <br>{% for error in form.image.errors %}
+                                        <span style="color: red;">[{{ error }}]{% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
