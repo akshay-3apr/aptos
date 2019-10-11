@@ -15,6 +15,6 @@ Install following packages:
 </p>
 <p>I have used fastai transfer learning to make use of resent50 model trained over imagenet. I have also made use of 1Cycle policy to train the data on APTOS dataset</p>  
 
-<p>Thanking everyone whose kernels and blogs were refernced while building this model</p>
+<p>Thanking everyone whose kernels and blogs were referenced while building this model</p>
 
 ![](aptos.gif)
