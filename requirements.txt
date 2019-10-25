@@ -9,3 +9,4 @@ scipy
 scikit-learn
 Flask-Uploads
 Pillow
+requests
