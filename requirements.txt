@@ -8,3 +8,4 @@ pandas
 scipy
 scikit-learn
 Flask-Uploads
+Pillow==2.2.2
