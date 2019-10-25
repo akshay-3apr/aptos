@@ -10,3 +10,4 @@ scikit-learn
 Flask-Uploads
 Pillow
 requests
+fastai
